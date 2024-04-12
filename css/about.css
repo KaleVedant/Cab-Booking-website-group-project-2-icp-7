@@ -2,6 +2,7 @@ body{
     background-color: #000000;
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 209, 67, 1) 0%, rgba(255, 145, 83, 1) 90%);
 }
+
 .top-heading{
     text-align: center;
     color: #e5e5e5;
@@ -36,7 +37,7 @@ body{
     padding-bottom: 70px;
     
 }
-.car-img{
+.car-img1{
     height: 200px;
     width: 280px;
     padding: 20px;

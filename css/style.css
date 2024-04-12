@@ -106,6 +106,7 @@
 .soci-logo{
     height: 40px;
     padding-right: 20px;
+    cursor: pointer;
 }
 .mid-footer{
     display: grid;
@@ -118,13 +119,20 @@
     color: #e5e5e5;
     text-decoration: none;
 }
-.page-links{
-    color: #e5e5e5;
-    font-size: large;
-    text-align: center ;
+.pages-links{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    opacity: 0.9;
+
+}
+.pages-links:hover{
+    opacity: 1;
+    color: orange;
 }
 .copy-right{
     color: white;
+    text-align: center;
 }
 .right-footer{
     color: white;
@@ -132,4 +140,15 @@
 .msg-heading{
     padding-top: 120px;
     padding-bottom: 30px;
+}
+.msg-form{
+    
+}
+.submit-btn{
+    background-color: rgba(255, 145, 83, 1);
+    border-radius: 10px;
+
+}
+.submit-btn:hover{
+    background-color: orange;
 }
