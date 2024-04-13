@@ -8,8 +8,6 @@ function lightmode(){
 
     const  bodyElement = document.getElementById("body");
     bodyElement.className = "theme-light";
-
-    co
 }
 
 function darkmode(){

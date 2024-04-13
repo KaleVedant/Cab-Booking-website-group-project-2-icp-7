@@ -2,7 +2,44 @@ body{
     background-color: #000000;
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 209, 67, 1) 0%, rgba(255, 145, 83, 1) 90%);
 }
+.container1{
+    background-color: transparent;
+    height: 60px;
+    width: 100px;
+    right: 900px;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.mode{
+    height: 40px;
+    margin: 5px auto;
 
+    cursor: pointer;
+}
+.container1{
+    height: 50px;
+    width: 120px;
+    border: 1px solid orangered;
+    border-radius: 70px;
+}
+
+.active{
+    background-color:  lightgrey;
+    border-radius: 50%;
+}
+.theme-dark{
+    background-color: black;
+    color: white;
+    background-image: url(../images/dark-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.theme-light{
+    background-color: white;
+    color: black;
+}
 .top-heading{
     text-align: center;
     color: #e5e5e5;
@@ -186,14 +223,33 @@ body{
         transform: scale(1);
         margin-top: 20px;
     }
-    .car:hover{
+    .card:hover{
         transform: scale(1.001);
-
     }
 
     .info-container {
         flex-direction: column;
         align-items: center;
         padding: 10px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-footer{
+        padding: 100px;
+    }
+    .soci-logo{
+        height: 10px;
+    }
+
+    .mid-footer {
+        padding-top: 20px;
+    }
+
+    .useful-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
 }
